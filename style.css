@@ -1,0 +1,159 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body {
+    background-color: #e2e2e2;
+   
+}
+#banner {
+    background-color: #cac531;
+    width: 100%;
+    background: url(back2.jpg);   
+}
+.banner-center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-bottom: -4px;
+}
+#img-alan{
+    width: 25%;
+    height: 30%;
+    margin-left: 10%;
+    margin-top: 5%; 
+}
+p {
+    font-size: 160%;
+    font-family: sans-serif;
+    color: #cc5333;
+    text-align: justify; 
+}
+.aboutMeP{
+    text-indent: 12%;
+    font-size: 140%;
+}
+.lang p{
+    font-size: 135%;
+    color: #e2e2e2;
+    margin: 3%;
+}
+h2 {
+    font-size: 400%;
+    font-family: sans-serif;
+    color: #fc4a1a;
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 170%;
+    font-family: sans-serif;
+    color: #f7b733;
+}
+.center {
+    margin: 0 auto;
+}
+.lang {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+}
+.lang h3{
+    color:#e2e2e2;
+    
+}
+.lang img{
+    width: 8%;
+    height: 7%;
+}
+#html {
+    background-color: #38ef7d;
+}
+#css {
+    background-color: #f7b733;
+}
+#js {
+    background-color: #fc4a1a;
+}
+#java {
+    background-color: #7f00ff;    
+}
+#center-why {
+   margin: 0 auto;
+   max-width: 5000px;
+}
+#whyworkwithus1 {
+    margin-top: 20%;
+}
+#whyworkwithus2{
+    padding-top: 25%;
+}
+.whywithus {
+     width: 30%;
+     float: left;
+}
+.whywithus p {
+    margin-top: 2%;
+}
+#whywithus1 {
+    margin-left: 20%;
+}
+#whywithus2 {
+    margin-left: 15%;
+}
+#whywithus11 {
+    margin-left: 20%;
+}
+#whywithus22 {
+    margin-left: 15%;
+}
+#time {
+    width: 30%;
+    height: 30%;
+}
+@media screen and (max-width: 768px){
+    p {
+        font-size: 90%;
+    }
+    .aboutMeP {
+        font-size: 110%;
+        text-align: center;
+        margin: 1%;
+    }
+    .lang p {
+        margin: none;
+        font-size: 110%;
+    }
+    h2 {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 150%;
+    }
+    .lang {
+        width: 100%;
+    }
+    .whywithus {
+        width: 100%;
+    }
+    #whywithus1 {
+        margin: auto;
+    }
+    #whywithus2 {
+        margin:auto;
+    }
+    #whywithus11 {
+        margin:auto;
+    }
+    #whywithus22 {
+        margin:auto;
+    }
+    
+
+}
